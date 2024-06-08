@@ -1,15 +1,13 @@
 <?php
 
 namespace App\Http\Controllers;
-
 use Illuminate\Http\Request;
 use App\Models\AdminLoginModel;
 use App\Models\CustomerRegModel;
 use Session;
 
-class AdminloginController extends Controller
+class AdminLoginController extends Controller
 {
-  
     public function login()
     {
 
@@ -60,8 +58,4 @@ class AdminloginController extends Controller
             return redirect ('/index');
 
         }
-
-
 }
-
-
