@@ -1,0 +1,1 @@
+INSERT into admin_login_models(email,pass) VALUES('admin@gmail.com','1311')
